@@ -27,8 +27,16 @@ public class FirstJDBC {
 		Statement statement = connection.createStatement();
 		
 //		Execute Query
-	
-//		Process ResultSet
+	String query= "INSERT INTO employee(id, name, age) VALUES(1, 'Aniket', 27)";
+	int rowsAffected = statement.executeUpdate(query);
+//		Process ResultSet 
+	if(rowsAffected ==0) {
+System.out.println("Unable to insert data");
+		
+	}
+	else {
+		System.out.println("Data inserted successfully!");
+	}
 //		Close Resource
 		statement.close();
 		connection.close();
