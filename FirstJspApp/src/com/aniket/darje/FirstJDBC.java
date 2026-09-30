@@ -7,7 +7,7 @@ public class FirstJDBC {
 
 //		laod and register drivers
 		
-		Class.forName("");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 	}
 
 }

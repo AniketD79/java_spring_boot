@@ -1,0 +1,7 @@
+db name = mydb1
+db pass = root@123
+table name = employee
+
+CREATE DATABASE mydb1;
+USE mydb1;
+CREATE TABLE employee(id INT NOT NULL PRIMARY KEY, name VARCHAR(100) NOT NULL, age INT NOT NULL);
