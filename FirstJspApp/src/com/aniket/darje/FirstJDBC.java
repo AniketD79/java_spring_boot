@@ -27,7 +27,7 @@ public class FirstJDBC {
 		Statement statement = connection.createStatement();
 		
 //		Execute Query
-	String query= "INSERT INTO employee(id, name, age) VALUES(1, 'Aniket', 27)";
+	String query= "INSERT INTO employee(id, name, age) VALUES(3, 'ABC', 24)";
 	int rowsAffected = statement.executeUpdate(query);
 //		Process ResultSet 
 	if(rowsAffected ==0) {
