@@ -44,8 +44,8 @@ public class Eighth {
 
 	                rs.close();
 		 }
-		 
-		 
+		
+		
 		System.out.print("Enter your name: ");
 		String name = sc.next();
 		System.out.println();
